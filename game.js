@@ -22,7 +22,7 @@ PS.touch = function( x, y, data, options ) {
 	"use strict"; // Do not remove this directive!
 	PS.debug( "PS.touch() @ " + x + ", " + y + "\n" );
 		
-	if(PS.color(x,y) == 13158600){
+	if(PS.color(x,y) == 16777215){
 		if (counter%2 == 0){
 			colorFill = cross;
 			PS.statusText( "Player 2 turn" );
