@@ -1,0 +1,11 @@
+1. knowledge in the middle of the triangle
+2. logic > form + language
+3. touch
+4. release
+5. entry
+6. exit
+7. grid exit
+8. keydown
+9. keyup
+10 game state
+11 why 256?
