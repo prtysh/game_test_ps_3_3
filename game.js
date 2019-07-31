@@ -81,14 +81,14 @@ PS.release = function( x, y, data, options ) {
 PS.enter = function( x, y, data, options ) {
 	"use strict"; // Do not remove this directive!
 	// PS.debug( "PS.enter() @ " + x + ", " + y + "\n" );
-	if(PS.color(x,y) == 16777215){PS.color(x,y,200,200,200);};
+	//if(PS.color(x,y) == 16777215){PS.color(x,y,200,200,200);};
 	
 };
 
 PS.exit = function( x, y, data, options ) {
 	"use strict"; // Do not remove this directive!
 	// PS.debug( "PS.exit() @ " + x + ", " + y + "\n" );
-	if(PS.color(x,y) == 13158600){PS.color(x,y,255,255,255);};
+	//if(PS.color(x,y) == 13158600){PS.color(x,y,255,255,255);};
 };
 
 PS.exitGrid = function( options ) {
