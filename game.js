@@ -26,13 +26,16 @@ PS.touch = function( x, y, data, options ) {
 		if (counter%2 == 0){
 			colorFill = cross;
 			PS.statusText( "Player 2 turn" );
+			PS.audioPlay( "fx_bloop" );
 		} else {
 			colorFill = zero;
 			PS.statusText( "Player 1 turn" );
+			PS.audioPlay( "fx_boop" );
 		}
 		counter++;
 		PS.color(x,y,colorFill);
 		PS.glyph(x, y, "");
+		
 	}
 
 	if(gameState == "done")  {
